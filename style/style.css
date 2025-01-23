@@ -9,6 +9,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     /* width: 1600px; */
@@ -23,8 +24,8 @@ body{
 .container {
     background-image:
     linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url(../images/Banner\ Image.png);
-    width: 1300px;
-    height: 600px;
+    max-width: 1300px;
+    min-height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +46,7 @@ body{
 }
 .text-father .sub-title{
     font-family: "Merriweather", serif;
-    font-size: 32px;
+    font-size: 2rem;
     color: #FFFFFF;
     text-align: center;
     
@@ -54,7 +55,7 @@ body{
 .text-father .title{
     font-family: "Merriweather", serif;
     line-height: 95px;
-    font-size: 72px;
+    font-size: 4.5rem;
     color: #FFFFFF;
     text-align: center;
 }
@@ -74,7 +75,7 @@ body{
     
 }
 .img-container .img-head{
-    font-size: 88px;
+    font-size: 5.5rem;
     font-weight: bold;
     color: #FF0000;
     font-family: "Inter", serif;
@@ -82,7 +83,7 @@ body{
 
 }
 .img-container .img-sub-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     font-family: "Inter", serif;
     color: #FF0000;
@@ -91,7 +92,7 @@ body{
     margin-bottom: 16px;
 }
 .img-container .img-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     font-family: "Inter", serif;
     color: #070211;
@@ -99,7 +100,7 @@ body{
     margin-bottom: 48px;
 }
 .img-container .pic{
-    width: 800px;
+    max-width: 800px;
 }
 
 /* img end */
@@ -112,7 +113,7 @@ body{
     margin: 0 auto;
     background-position: center;
     background-size: cover;
-    width: 1320px;
+    max-width: 1320px;
 }
 
 .welcome .welcome-container{
@@ -123,25 +124,25 @@ body{
 }
 
 .welcome-text .welcome-title{
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: bold;
     color: white;
     margin: 126px 90px 24px 126px ;
-    width: 640px;
+    max-width: 640px;
     font-family: "Merriweather", serif;
     
 
 }
 .welcome-text .welcome-description{
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #FFFFFF;
-    width: 667px;
+    max-width: 667px;
     margin: 0 39px 30px 126px;
     font-family: "Inter", serif; 
 }
 .welcome-text .link span {
     font-family: "Inter", serif; 
-    font-size: 20px;
+    font-size: 1.2rem;
     color: white;
     margin: 0 158px 0 158px ;
     
@@ -152,7 +153,7 @@ body{
 }
 
 .welcome-text .welcome-pic{
-    width: 318px;
+    max-width: 318px;
 
 
 }
@@ -170,8 +171,8 @@ body{
    background-color:  #ff000013;
     /* text-align: center; */
     position: relative;
-    width:1320px ;
-    height: 482px;
+    max-width:1320px ;
+    min-height: 482px;
     margin: 0 auto;
     margin-top:120px ;
     border-radius: 10px;
@@ -187,32 +188,32 @@ body{
 
 }
 .place-container .place-head{
-    font-size: 32px;
+    font-size:2rem;
     font-weight: 600;
     font-family: "Inter", serif; 
     margin-bottom: 10px;
 }
 .place-container .date-head{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     font-family: "Inter", serif; 
     margin-bottom: 10px;
 }
 .place-container .time-head{
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 600;
     font-family: "Inter", serif; 
 }
 .link button{
     background-color:#FF0000;
     padding: 10px;
-    font-size: 20px ;
+    font-size: 1.2rem ;
     font-weight: bold;
     color: white;
     border-radius: 8px;
     border: none;
     margin: 38px 577px 110px 576px ;
-    width: 150px;
+    max-width: 150px;
 }
 
 
@@ -229,7 +230,7 @@ span{
 /* offer section style start here */
 .new-offer{
    margin: 0 auto;
-   width: 1507px;
+   max-width: 1507px;
 }
 .offer-container{
     display: flex;
@@ -242,7 +243,7 @@ span{
 }
 
 .offer-text .offer-sub-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #FF0000;
     font-family: "Inter", serif; 
@@ -251,13 +252,13 @@ span{
 }
 
 .offer-text .offer-title{
-    font-size: 48px;
+    font-size: 3rem;
     color: #070211;
     font-family: "Merriweather", serif;
     margin: 0 147px 22px 190px ;
 }
 .offer-text .offer-description{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: "Inter", serif; 
     color: #07021171;
     margin: 0 70px 0 191px;
@@ -279,14 +280,14 @@ span{
     /* width: 463px; */
 }
 .year{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     color: #FF0000;
     margin: 244px 238px 26px 118px;
 }
 
 .offer-year .offer-year-description{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #07021171;
     font-family: "Inter", serif;
     margin:10px 96px 21px 111px;
@@ -308,7 +309,7 @@ span{
 
 /* holiday section start here */
 .holiday-container {
-     width:1320px ;
+     max-width:1320px ;
      margin: 0 auto;
      margin-top: 100px;
 }
@@ -316,7 +317,7 @@ span{
     position: relative;
 }
 .holiday-container .holiday-sub-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500px;
     font-family: "Inter", serif;
     text-transform: uppercase;
@@ -325,7 +326,7 @@ span{
 
 }
 .holiday-container .holiday-title{
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 700px;
     font-family: "Merriweather", serif; 
     text-transform: capitalize;
@@ -334,7 +335,7 @@ span{
    
 }
 .holiday-container .holiday-description{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 600px;
     font-family: "Inter", serif;
     color: #07021165;
@@ -361,12 +362,12 @@ holiday section end here */
 /* protfolio style start here */
 
 .protfilo{
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     margin-top: 50px;
 }
 .protfilo-sub-title{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 500px;
     color: #FF0000;
     font-family: "Inter", serif;
@@ -374,7 +375,7 @@ holiday section end here */
 
 }
 .protfilo-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     color: #070211;
     font-family: "Merriweather", serif;
@@ -383,7 +384,7 @@ holiday section end here */
 
 }
 .protfilo-description{
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #07021150;
     font-family: "Inter", serif;
     line-height: 32px;
@@ -405,8 +406,8 @@ holiday section end here */
     
 }
 .img-width{
-    width: 420px;
-    height: 400px;
+    max-width: 420px;
+    min-height: 400px;
 }
 
 
@@ -418,7 +419,7 @@ protfolio style end here */
 newsletter section style start here */
 
 .newsletter{
-    width: 1320px;
+    max-width: 1320px;
     margin: 0 auto;
     background-color: #ff00001c;
     border-radius: 10px;
@@ -429,18 +430,18 @@ newsletter section style start here */
    padding: 40px;
 }
 .news-img{
-    width: 150px;
+    max-width: 150px;
     margin-bottom: 20px;
 }
 .news-title{
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 500;
     color: #070211;
     margin-bottom: 20px;
     font-family: "Merriweather", serif;
 }
 .news-description{
-    font-size: 20px;
+    font-size: 1.2rem;
     font-family: "Inter", serif;
     color: #0702113d;
     margin-bottom: 20px;
@@ -450,7 +451,7 @@ newsletter section style start here */
     margin-top: 20px;
     padding: 15px 20px;
     border: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 700;
 
 
@@ -483,7 +484,7 @@ newsletter section style start here */
     margin-bottom: 15px;
 }
 .foot-address {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600px;
     font-family: "Inter", serif;
 
@@ -507,8 +508,199 @@ newsletter section style start here */
 }
 .footer-span{
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: "Inter", serif;
 }
 /* footer section end here */
+
+.display-hide{
+    display: none;
+}
+
+
+/* responsive design for small device start here */
+
+@media screen and (max-width:576px) {
+
+
+
+    /* banner section start here */
+
+.container {
+    width: 100%;
+    background-size: contain;
+    margin-top: 0px;
+    border-radius: 10px; 
+    background-image:
+    linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.575)), url(../images/Banner\ Image.png);
+
+}
+
+.text-father .sub-title{
+   font-size: 1.2rem;
+    margin-bottom: 5px;
+   
+
+}
+.text-father .title{
+   
+    line-height: 43px;
+    font-size: 2.2rem;
+   
+}
+
+/* banner section end here */
+
+
+/* img section start here */
+
+
+
+.img-container{
+   
+    margin-top: 10px;
+    
+}
+.img-container .img-head{
+    font-size: 2.5rem;
+    
+    margin-bottom:28px ;
+    margin-top: -100px;
+
+}
+.img-container .img-sub-title{
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.img-container .img-title{
+    font-size:2rem;
+    margin-bottom: 28px;
+}
+.img-container .pic img{
+    width: 100%;
+}
+
+/* img section end here */
+
+
+/* welcome section start here */
+
+.welcome{
+    background-size: contain;
+    width: 100%;
+    /* min-height: 220px; */
+}
+
+.welcome .welcome-container{
+  
+     margin-top: 70px;
+     
+}
+
+.welcome-text .welcome-title{
+    font-size: 1.5rem;
+    margin: 15px 5px ;
+    width: 100%;
+
+}
+.welcome-text .welcome-description{
+    font-size: 0.8rem;
+   
+    width: 80%;
+    margin: 10px 5px ;
+    
+}
+.welcome-text .link span {
+    font-size: 1rem;
+    margin: 10px 5px ;
+    
+   
+}
+.welcome-text .welcome-pic , img{
+    width: 100%;
+}
+.welcome-pic img{
+     margin: 0;
+}
+
+
+
+/* welcome section end here */
+
+
+/* place section start here */
+
+.place{
+   
+     /* text-align: center; */
+    
+     width:100% ;
+     min-height: 320px;
+     /* margin: 0 auto; */
+     margin-top:20px ;
+     border-radius: 5px;
+     
+ }
+ .place .place-container{
+     /* position: absolute;
+         text-align: center; */
+         /* margin: 110px 352px 110px 419px ; */
+        
+         margin-top: 100px;
+         top: 0%;
+         left:0%;
+         transform: translate(-0%,-0%);
+ 
+ }
+ .place-container .place-head{
+     font-size:1.5rem;
+     /* font-weight: 600;
+     font-family: "Inter", serif; 
+     margin-bottom: 10px; */
+ }
+ .place-container .date-head{
+     font-size: 1.5rem;
+     padding: 10px;
+     /* font-weight: 600;
+     font-family: "Inter", serif; 
+     margin-bottom: 10px; */
+ }
+ .place-container .time-head{
+     font-size: 1.4rem;
+     /* text-align: left; */
+     /* font-weight: 600;
+     font-family: "Inter", serif;  */
+ }
+ .link button{
+     /* background-color:#FF0000; */
+     /* padding: 20px; */
+     font-size: 1rem ;
+     /* font-weight: bold;
+     color: white; */
+     /* border-radius: 8px; */
+     /* border: none; */
+     margin: 20px;
+     
+     padding: 10px;
+     width: 150px;
+ }
+ 
+ 
+ 
+
+
+
+/* place section end here */
+
+
+
+    
+}
+
+
+
+
+
+
+/* responsive design for small device end here */
