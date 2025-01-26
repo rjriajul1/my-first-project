@@ -514,9 +514,7 @@ newsletter section style start here */
 }
 /* footer section end here */
 
-.display-hide{
-    display: none;
-}
+
 
 
 /* responsive design for small device start here */
@@ -846,6 +844,56 @@ newsletter section style start here */
         width: 60vw;
 }
 /* newsletter section end here */
+
+
+/* footer section start here */
+
+.footer{
+   
+    /* padding: 100px; */
+    padding: 0;
+    margin-top: 70px ;
+}
+.contact-container{
+ 
+   padding: 10px;
+}
+/* .foot-address {
+   font-size: 1.5rem;
+   font-weight: 600px;
+   font-family: "Inter", serif;
+
+} */
+/* .hz-rule{
+  border-color: rgba(128, 128, 128, 0.315);
+} */
+/* .icon-contaienr{
+   text-align: center;
+   margin: 20px 0;
+   padding: 10px;
+} */
+/* .link{
+   margin-right: 10px;
+} */
+ .icon-contaienr img{
+    width: 100px;
+ }
+.footer-last{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 40px;
+   padding: 20px;
+}
+.footer-span{
+   
+   font-size: 1rem;
+   
+}
+/* footer section end here */
+
+
+
+/* footer section end here */
 
 
 
